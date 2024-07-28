@@ -13,7 +13,8 @@ num = list(map(int, input().split()))
 #         result = max(result, sum)
 # print(result)
 
-# trial 2 dp
+# trial 2 
+# dp
 dp=[0]*n        # 해당 idx까지 최대 합 저장
 dp[0]=num[0]
 
